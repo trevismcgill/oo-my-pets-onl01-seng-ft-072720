@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor
+  attr_accessor 
   attr_reader :species, :name
 
 def initialize(name)
@@ -9,6 +9,6 @@ def initialize(name)
 end
 
 def say_species
-  @species
+  "I am a #{@species}."
 end
 end
