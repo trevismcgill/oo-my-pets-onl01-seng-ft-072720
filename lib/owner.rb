@@ -1,8 +1,9 @@
 class Owner
   # code goes here
-  attr_accessor :name
+  attr_accessor :name :species
 
-  def initialized
-  end
+def initialize
+@species = humanm
+end
 
 end
