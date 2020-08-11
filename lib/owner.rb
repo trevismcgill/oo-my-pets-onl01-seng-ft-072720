@@ -58,6 +58,7 @@ end
 def sell_pets
 pets = cats + dogs
 binding.pry
+pets.each {|pet| pet.mood = "nervous"}
 end
 
 def list_pets
