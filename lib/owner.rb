@@ -65,6 +65,7 @@ end
 end
 
 def list_pets
+pets = cats + dogs
 dogs_num = dogs.length
 cats_num = cats.length
 "I have #{dogs_num} dog(s), and #{cats_num} cat(s)S."
