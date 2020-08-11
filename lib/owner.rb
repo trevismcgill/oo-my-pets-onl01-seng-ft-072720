@@ -28,4 +28,9 @@ end
 def self.reset_all
 @@all = []
 end
+
+def cats
+
+end
+
 end
