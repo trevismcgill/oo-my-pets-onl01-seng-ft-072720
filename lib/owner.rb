@@ -52,7 +52,7 @@ dogs.each {|dog| dog.mood = "happy"}
 end
 
 def feed_cats
-
+cats.each {|cat| cat.mood = "happy"}
 end
 
 def list_pets
