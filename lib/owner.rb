@@ -32,7 +32,7 @@ end
 
 def cats
   my_cats = Cat.all.select {|cat| cat.owner == self}
-  # binding.pry
+  binding.pry
 end
 
 def dogs
