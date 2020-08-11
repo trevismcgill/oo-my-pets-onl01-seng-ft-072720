@@ -2,7 +2,7 @@ class Cat
   # code goes here
   attr_accessor :name, :owner
 
-def initialize
+def initialize(name, owner)
 
 end
 
