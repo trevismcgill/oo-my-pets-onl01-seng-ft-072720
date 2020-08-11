@@ -8,6 +8,7 @@ def initialize(name, owner)
 @name = name
 @owner = owner
 @mood = "nervous"
+@species = "cat"
 save
 end
 
