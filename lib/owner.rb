@@ -57,7 +57,7 @@ end
 
 def sell_pets
 pets = cats + dogs
-binding.pry
+# binding.pry
 pets.each {|pet| pet.mood = "nervous" & pet.owner = nil}
 end
 
