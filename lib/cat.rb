@@ -10,6 +10,10 @@ def initialize(name, owner)
 @mood = "nervous"
 end
 
+def save
+  @@all << self
+end
+
 def self.all
 @@all
 end
