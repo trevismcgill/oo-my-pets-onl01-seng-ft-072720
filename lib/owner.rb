@@ -2,7 +2,7 @@ class Owner
   # code goes here
   attr_accessor
   attr_reader :species, :name
-
+@@all = []
 def initialize(name)
 @species = "human"
 @name = name
