@@ -57,6 +57,7 @@ end
 
 def sell_pets
 pets = cats + dogs
+binding.pry
 end
 
 def list_pets
