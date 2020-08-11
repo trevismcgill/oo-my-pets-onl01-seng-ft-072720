@@ -8,6 +8,10 @@ def initialize(name)
 @name = name
 end
 
+def save
+  @@all << self
+end
+
 def say_species
   "I am a #{@species}."
 end
