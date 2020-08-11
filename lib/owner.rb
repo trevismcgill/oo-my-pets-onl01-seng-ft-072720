@@ -36,7 +36,7 @@ def cats
 end
 
 def dogs
-  my_dogs = Dog.all.select {|dog| dog.owner -- self}
+  my_dogs = Dog.all.select {|dog| dog.owner == self}
 end
 
 def list_pets
