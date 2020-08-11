@@ -4,7 +4,7 @@ class Cat
 attr_reader :name
 def initialize(name, owner)
 @name = name
-@owner - owner
+@owner = owner
 end
 
 end
