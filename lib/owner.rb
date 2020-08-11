@@ -33,5 +33,6 @@ def cats
 if Cat.owner == self
   collect
 end
+end
 
 end
