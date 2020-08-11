@@ -30,13 +30,11 @@ def self.reset_all
 end
 
 def cats
-  if Cat.owner == self
-    collect
-  end
+  Cat.all.collect {|cat| cat.owner == self}
 end
 
 def list_pets
-Cat.all.collect {|cat| cat.owner == self}
+
 end
 
 end
