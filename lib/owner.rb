@@ -33,7 +33,7 @@ end
 def cats
   my_cats = Cat.all.select {|cat| cat.owner == self}
   binding.pry
-  my_cats
+  my_cats.name
 end
 
 def list_pets
