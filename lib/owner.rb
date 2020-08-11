@@ -65,7 +65,8 @@ end
 end
 
 def list_pets
-
+pets = cats + dogs
+pets
 end
 
 end
