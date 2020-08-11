@@ -56,7 +56,7 @@ cats.each {|cat| cat.mood = "happy"}
 end
 
 def sell_pets
-
+pets = cats + dogs
 end
 
 def list_pets
