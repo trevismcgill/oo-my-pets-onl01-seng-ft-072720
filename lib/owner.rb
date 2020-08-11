@@ -35,6 +35,9 @@ def cats
   # binding.pry
 end
 
+def dogs
+  my_dogs = Dog.all.select {|dog| dog.owner -- self}
+
 def list_pets
 
 end
