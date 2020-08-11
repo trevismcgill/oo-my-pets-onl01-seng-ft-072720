@@ -31,7 +31,7 @@ def self.reset_all
 end
 
 def cats
-  my_cats = Cat.all.collect! {|cat| cat.owner == self}
+  my_cats = Cat.all.select {|cat| cat.owner == self}
   binding.pry
   my_cats
 end
