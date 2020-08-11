@@ -31,6 +31,7 @@ end
 
 def cats
   my_cats = Cat.all.collect {|cat| cat.owner == self}
+  my_cats
 end
 
 def list_pets
